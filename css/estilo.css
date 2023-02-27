@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor #contenedor_header {
+    height: 285px;
+    background-color: #097378;
+    background-image: url(../imagenes/fondo_header.jpg);
+}
+#contenedor #contenedor_header #header {
+    width: 1004px;
+    height: 285px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contenedor_header #header #logo {
+    width: 238px;
+    height: 46px;
+    padding-top: 37px;
+    padding-left: 51px;
+}
+#contenedor_header #header #slogan {
+    float: right;
+    padding-right: 65px;
+}
+#contenedor #menu_fondo {
+    height: 33px;
+    background-color: #00AC69;
+}
+
+#menu_fondo #menu #menufila {
+    list-style-type: none;
+    margin: 0; padding: 0; 
+	
+}
+#menu #menufila #menulista a:hover {
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    margin: 2px;
+    border: 0 solid #CCCCCC;
+    float: left;
+    color: #FFF500;
+    text-shadow: 0px 0px #FFFD00;
+}
